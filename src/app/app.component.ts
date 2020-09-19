@@ -7,15 +7,21 @@ import { FormControl } from "@angular/forms";
   styleUrls: ["./app.component.scss"]
 })
 export class AppComponent {
-
-  options = [
-    { id: 1, label: "One" },
-    { id: 2, label: "Two" },
-    { id: 3, label: "Three" },
-    { id: 4, label: "Four" },
-    { id: 5, label: "Five" },
-    { id: 6, label: "sex" },
-    { id: 7, label: "seven" }
+  public countries = [
+    { id: 1, label: "Albania" },
+    { id: 2, label: "Belgium" },
+    { id: 3, label: "Denmark" },
+    { id: 4, label: "Montenegro" },
+    { id: 5, label: "Turkey" },
+    { id: 6, label: "Ukraine" },
+    { id: 7, label: "Macedonia" },
+    { id: 8, label: "Slovenia" },
+    { id: 9, label: "Georgia" },
+    { id: 10, label: "India" },
+    { id: 11, label: "Russia" },
+    { id: 12, label: "Switzerland" },
+    { id: 13, label: "Tunisia" },
+    { id: 14, label: "France" }
   ];
   control = new FormControl();
 }
