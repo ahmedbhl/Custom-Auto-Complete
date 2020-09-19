@@ -1,0 +1,14 @@
+/* Add application styles & imports to this file! */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "~@angular/cdk/overlay-prebuilt.css";
+
+body {
+  height: 100vh;
+  padding: 30px !important;
+  background-image: linear-gradient(to left bottom, #0d214f, #0e386a, #0b5186, #056ba0, #0086ba, #0086bf, #0087c4, #0087c9, #006bb8, #004ea4, #00318c, #101071);
+   display: flex;
+  flex-direction: column;
+  /* justify-items: center; */
+  align-items: center;
+  justify-content: center;
+}
